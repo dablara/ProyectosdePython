@@ -36,6 +36,7 @@ def suma():
 suma()
 
 print ("---------------------")
+
 # Ahora usaremos argumentos en las funciones para en cada llamada haga una suma diferentre
 
 print ("Ahora usaremos argumentos en las funciones para en cada llamada haga una suma diferentre")

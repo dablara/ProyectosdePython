@@ -20,8 +20,8 @@ print ('----------------------')
 
 
 #Preguntale al usuario el nombre  y el primer apellido y muestrale sus inicales
-nombre = input ('Cual es tu nombre?')
-apellido = input ('¿Cual es tu primer apellido?')
+nombre = input ('Cual es tu nombre?' )
+apellido = input ('¿Cual es tu primer apellido?' )
 
 iniciales = nombre[0]+apellido[0]
 
@@ -29,8 +29,8 @@ print (f'Mis iniciales son {iniciales}')
 print ('----------------------')
 
 #Pide al usuario dos numeros, sumalos, restalos, dividelos y multiplícalos entre si y muestra por pantalla el resultado de cada operaión
-n1 = int(input('¿Cual es el primer numero?'))
-n2 = int (input('¿Cual es el segundo numero'))
+n1 = int(input('¿Cual es el primer numero?' ))
+n2 = int (input('¿Cual es el segundo numero' ))
 
 suma= n1+n2
 resta= n1-n2
