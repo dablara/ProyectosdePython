@@ -2,8 +2,8 @@
 
 print ('4. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.')
 
-n1 = int(input('¿Cual es el primer numero?'))
-n2 = int (input('¿Cual es el segundo numero'))
+n1 = int(input('¿Cual es el primer numero? '))
+n2 = int (input('¿Cual es el segundo numero? '))
 
 suma= n1+n2
 resta= n1-n2
