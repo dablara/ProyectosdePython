@@ -2,7 +2,7 @@
 # El programa debe preguntar al usuario la edad del cliente y mostrar el precio de la entrada. 
 # Si  el cliente es menor de 4 años puede entrar gratis, si tiene entre 4 y 18 años debe pagar 5€ y si es mayor de 18 años, 10€.
 
-edad = int(input('¿Que edad tiene el cliente'))
+edad = int(input('¿Que edad tiene el cliente '))
 
 if edad <= 4:
   print ('Enhorabuena no pagas nada')
@@ -13,7 +13,7 @@ elif edad > 18:
 print ('----------------')
 #Escribe un programa que le introduzcas el número del mes y te imprima por pantalla el nombre(ej. 1 --> enero)
 
-mes = int(input('Di el numero del mes'))
+mes = int(input('Di el numero del mes '))
 
 if mes == 1:
   print = ('El mes es Enero')
@@ -47,7 +47,7 @@ print ('----------------')
   # Otra forma de hacer lo de los mes con listas- Recorre la lista
 meses = ['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
 opcion = int(input('Número:'))
-print(f'El mes es {meses[opcion]}')
+print(f'El mes es {meses[opcion]} ')
 
 print ('----------------')
 
@@ -68,6 +68,7 @@ else:
 print ('----------------')
 
 # Crea un programa que determine si un número es positivo, negativo o cero.
+
 numero = int(input('Introduce el numero'))
 
 if numero ==0:
