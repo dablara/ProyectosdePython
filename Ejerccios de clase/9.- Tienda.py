@@ -3,7 +3,7 @@
 
 precio =  int (input('Introduzca el precio de la compra '))
 
+descuento = precio 
 
 
-
-print (f'El precio base del producto es {precio} y con descuento es {ultimoprecio}')
+print (f'El precio base del producto es {precio} y con descuento es {descuento}')

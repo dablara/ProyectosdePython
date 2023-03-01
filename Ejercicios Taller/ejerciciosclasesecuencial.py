@@ -23,7 +23,7 @@ print ('----------------------')
 nombre = input ('Cual es tu nombre?' )
 apellido = input ('¿Cual es tu primer apellido?' )
 
-iniciales = nombre[0]+apellido[0]
+iniciales = nombre[1]+apellido[1]
 
 print (f'Mis iniciales son {iniciales}')
 print ('----------------------')

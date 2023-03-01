@@ -1,4 +1,8 @@
 # 6. Calcular la media de tres números pedidos por teclado.
+
+
+
+
 import math
 n1 = int(input('Introduce el primer número '))
 n2 = int(input('Introduce el segundo número '))

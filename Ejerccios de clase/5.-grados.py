@@ -5,7 +5,7 @@
 
 # 5. Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius.
 
-print ('5. Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius.')
+
 
 faren = int(input('¿Cuantos grados Fahrenheit hay? '))
 

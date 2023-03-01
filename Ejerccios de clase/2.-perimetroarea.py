@@ -1,5 +1,5 @@
 # 2. Calcular el perímetro y área de un rectángulo dada su base y su altura.
-print ('2. Calcular el perímetro y área de un rectángulo dada su base y su altura.')
+
 
 base = int(input('Escribe la base del rectangulo '))
 altura = int(input('Escribe la altura del rectangulo '))
