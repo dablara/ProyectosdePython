@@ -4,7 +4,7 @@
 precio =  float (input('Introduzca el precio de la compra '))
 
 
-ahorro = (15*precio)/100 # tambien podemos poner precio*0.15
+ahorro = (15*precio)/100 #tambien podemos poner precio*0.15
 precio_final = precio - ahorro
 
 
