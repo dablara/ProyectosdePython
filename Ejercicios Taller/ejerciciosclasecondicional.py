@@ -44,7 +44,7 @@ else:
 
 print ('----------------')
  
-  # Otra forma de hacer lo de los mes con listas- Recorre la lista
+  # Otra forma de hacer lo de los meses con listas- Recorre la lista
 meses = ['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
 opcion = int(input('Número:'))
 print(f'El mes es {meses[opcion]} ')

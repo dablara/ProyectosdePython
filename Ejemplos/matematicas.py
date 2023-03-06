@@ -1,4 +1,4 @@
-# Aqui probare distinta metodos de la libreria math
+# Aqui probare distintos metodos de la libreria math
 
 numero = int(input('Introduzca un número'))
 
