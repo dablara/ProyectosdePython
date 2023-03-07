@@ -6,20 +6,30 @@
 
 #* 15% de la calificación de un trabajo final
 
-nota1 = float(input('Introduce primera nota parcial '))
-nota2 = float(input('Introduce segunda nota parcial '))
-nota3 = float(input('Introduce tercera nota parcial '))
-nota4 = float(input('Introduce nota de examen final '))
-nota5 = float(input('Introduce nota de trabajo '))
+nota1 = int(input('Introduce primera nota parcial '))
+nota2 = int(input('Introduce segunda nota parcial '))
+nota3 = int(input('Introduce tercera nota parcial '))
+nota4 = int(input('Introduce nota de examen final '))
+nota5 = int(input('Introduce nota de trabajo '))
 
-notasparciales= nota1+nota2+nota3
-promedio = notasparciales/3
-tres = 55*promedio/100
-notafinal = 30*nota4/100
-trabajo =  15*nota5/100
-evaluacion = tres+notafinal+trabajo
-
-print (f'Las notas de los parciales son {nota1},{nota2},{nota3} ')
-print (f'La nota del examen final es {nota4}')
-print (f'La nota del trabajo final es {nota5}')
-print (f'La nota final de la evaluación es {evaluacion}') 
+if nota1 < 0 or nota1 > 10:
+    print ('Las notas deben estar comprendidas entre 0 y 10')
+elif nota2 < 0 or nota2 > 10:
+    print ('Las notas deben estar comprendidas entre 0 y 10')
+elif nota3 < 0 or nota3 > 10:
+   print('Las notas deben estar comprendidas entre 0 y 10')
+elif nota4 < 0 or nota4 > 10:
+     print('Las notas deben estar comprendidas entre 0 y 10')
+elif nota5 < 0 or nota5 > 10:
+     print('Las notas deben estar comprendidas entre 0 y 10')
+else:
+    notasparciales= nota1+nota2+nota3
+    promedio = notasparciales/3
+    tres = 55*promedio/100
+    notafinal = 30*nota4/100
+    trabajo =  15*nota5/100
+    evaluacion = tres+notafinal+trabajo
+    print (f'Las notas de los parciales son {nota1},{nota2},{nota3} ')
+    print (f'La nota del examen final es {nota4}')
+    print (f'La nota del trabajo final es {nota5}')
+    print (f'La nota final de la evaluación es {evaluacion:.1f}') 
