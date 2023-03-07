@@ -9,14 +9,10 @@ nota3 = int(input('Introduce tercera nota parcial '))
 nota4 = int(input('Introduce nota de examen final '))
 nota5 = int(input('Introduce nota de trabajo '))
 
-if nota1 < 0 or nota1 > 10:
+if (nota1 < 0 or nota1 > 10) or (nota2 < 0 or nota2 > 10):
     print ('Las notas deben estar comprendidas entre 0 y 10')
-elif nota2 < 0 or nota2 > 10:
-    print ('Las notas deben estar comprendidas entre 0 y 10')
-elif nota3 < 0 or nota3 > 10:
+elif (nota3 < 0 or nota3 > 10) or (nota4 < 0 or nota4 > 10):
    print('Las notas deben estar comprendidas entre 0 y 10')
-elif nota4 < 0 or nota4 > 10:
-     print('Las notas deben estar comprendidas entre 0 y 10')
 elif nota5 < 0 or nota5 > 10:
      print('Las notas deben estar comprendidas entre 0 y 10')
 else:
