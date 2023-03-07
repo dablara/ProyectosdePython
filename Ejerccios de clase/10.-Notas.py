@@ -26,6 +26,7 @@ else:
     notafinal = 30*nota4/100
     trabajo =  15*nota5/100
     evaluacion = tres+notafinal+trabajo
+   
     print (f'Las notas de los parciales son {nota1},{nota2},{nota3} ')
     print (f'La nota del examen final es {nota4}')
     print (f'La nota del trabajo final es {nota5}')
